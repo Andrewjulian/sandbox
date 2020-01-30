@@ -1,6 +1,10 @@
-# this is the sandbox for python code
+ # this is the sandbox for python code
 
-name = input("enter name:")
+fhand = open('sandboxtext.txt')
 
-print(name)
+lines = 0
 
+for line in fhand:
+    lines = lines + 1
+
+print(lines)
